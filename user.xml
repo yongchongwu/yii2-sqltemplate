@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+    <sqltemplate id="list_users_for_table" desc="">
+        select * from user order by id
+    </sqltemplate>
+    <sqltemplate id="get_user_by_name" desc="">
+        select * from user where name='张三'
+    </sqltemplate>
+</Template>
